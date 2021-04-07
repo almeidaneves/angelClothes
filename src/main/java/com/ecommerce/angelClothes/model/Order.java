@@ -8,7 +8,7 @@ import javax.persistence.*;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name ="pedido")
+@Table(name ="order")
 @Entity
 @Data
 public class Order extends AngelClothesResponse{

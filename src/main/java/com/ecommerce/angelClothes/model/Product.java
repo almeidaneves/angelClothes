@@ -13,7 +13,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 public class Product extends AngelClothesResponse{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private long id;
     @Column
     private String name;
     @Column
