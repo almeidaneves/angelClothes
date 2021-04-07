@@ -12,6 +12,8 @@ import javax.persistence.*;
 @Entity
 @Data
 public class Order extends AngelClothesResponse{
+
+    @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     @OneToOne

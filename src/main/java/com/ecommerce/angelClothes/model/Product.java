@@ -12,6 +12,8 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Product extends AngelClothesResponse{
+
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     @Column
